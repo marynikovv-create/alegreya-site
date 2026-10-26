@@ -1,0 +1,18 @@
+@import 'reset.css';
+@import 'layout.css';
+
+/* шрифт */
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/Alegreya.ttf');
+    font-weight: 400 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/Alegreya-Italic.ttf');
+    font-weight: 400 900;
+    font-style: italic;
+}

@@ -1,0 +1,506 @@
+/* общее */
+
+body {
+    font-family: 'Alegreya';
+    margin: 0;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.site {
+    position: relative;
+    width: 1280px;
+    overflow: hidden;
+}
+
+.header, .purpose, .scripts, .digits, .weights, .details, .footer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h2, .title, .subtitle, .names {
+    color: #dd4b6d;
+}
+
+.date, .author, .note, .tale {
+    color: #666666;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 87px;
+}
+
+.note, .text {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.ornament1, .ornament2, .fade1, .fade2, .fade4, .map, .ruins, .wall, .letters {
+    left: 0;
+    width: 1280px;
+}
+
+/* шапка */
+
+.header {
+    height: 770px;
+}
+
+.date, .author {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 49px;
+}
+
+.date {
+    margin-top: 45px;
+    margin-left: 820px;
+}
+
+.title {
+    margin-top: 117px;
+    margin-left: 209px;
+    font-size: 150px;
+    line-height: 206px;
+}
+
+.subtitle {
+    margin-top: -31px;
+    margin-left: 209px;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.author {
+    margin-top: 216px;
+    margin-left: 106px;
+}
+
+.frame1 {
+    top: 0;
+    left: 34px;
+    width: 634px;
+}
+
+.frame2 {
+    top: 187px;
+    left: 612px;
+    width: 634px;
+}
+
+.pen {
+    top: 211px;
+    left: 433px;
+    width: 718px;
+}
+
+/* назначение */
+
+.purpose {
+    height: 933px;
+}
+
+.purpose .text {
+    margin-top: 390px;
+    margin-left: 599px;
+}
+
+.crown {
+    top: 294px;
+    left: 82px;
+    width: 448px;
+}
+
+.ornament1 {
+    top: 124px;
+}
+
+.ornament2 {
+    top: 640px;
+}
+
+.fade1 {
+    top: 678px;
+}
+
+.fade2 {
+    top: 124px;
+}
+
+/* системы письма */
+
+.scripts {
+    height: 1301px;
+}
+
+.scripts h2 {
+    margin-top: 20px;
+    margin-left: 49px;
+}
+
+.scripts .note {
+    margin-top: -13px;
+    margin-left: 61px;
+}
+
+.latin, .cyrillic, .greek {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+.latin {
+    margin-top: 56px;
+    margin-left: 807px;
+}
+
+.cyrillic {
+    margin-top: 228px;
+    margin-left: 816px;
+}
+
+.greek {
+    margin-top: 254px;
+    margin-left: 750px;
+    line-height: 50px;
+}
+
+.map {
+    top: 20px;
+}
+
+.fade3 {
+    top: 947px;
+    left: 0;
+    width: 721px;
+}
+
+/* цифры и глифы */
+
+.digits {
+    height: 1971px;
+}
+
+.digits h2, .digits .note, .digits .text {
+    margin-left: 47px;
+}
+
+.digits h2 {
+    line-height: 65px;
+}
+
+.numbers {
+    margin-top: 229px;
+}
+
+.digits .text {
+    margin-top: 20px;
+}
+
+.glyphs {
+    margin-top: 390px;
+}
+
+.glyph {
+    font-size: 162px;
+    font-style: italic;
+    line-height: 220px;
+}
+
+.glyph1 {
+    margin-top: 117px;
+    margin-left: 777px;
+}
+
+.glyph2 {
+    margin-top: -202px;
+    margin-left: 431px;
+}
+
+.glyph3 {
+    margin-top: -148px;
+    margin-left: 129px;
+}
+
+.glyph4 {
+    margin-top: -151px;
+    margin-left: 1077px;
+}
+
+.glyph5 {
+    margin-top: -173px;
+    margin-left: 391px;
+    font-size: 128px;
+    line-height: 174px;
+}
+
+.glyph6 {
+    margin-top: -141px;
+    margin-left: 789px;
+}
+
+.glyph7 {
+    margin-top: -190px;
+    margin-left: 556px;
+}
+
+.glyph8 {
+    margin-top: -46px;
+    margin-left: 767px;
+}
+
+.glyph9 {
+    margin-top: -203px;
+    margin-left: 247px;
+}
+
+.arch {
+    top: 0;
+    left: 609px;
+    width: 671px;
+}
+
+.ruins {
+    top: 497px;
+}
+
+.wall {
+    top: 1237px;
+}
+
+.fade4 {
+    top: 1711px;
+}
+
+.knight {
+    top: 734px;
+    left: 349px;
+    width: 549px;
+}
+
+.num1 {
+    top: 463px;
+    left: 1053px;
+}
+
+.num2 {
+    top: 401px;
+    left: 807px;
+}
+
+.num3 {
+    top: 435px;
+    left: 971px;
+}
+
+.num4 {
+    top: 488px;
+    left: 1125px;
+}
+
+.num5 {
+    top: 448px;
+    left: 960px;
+}
+
+.num6 {
+    top: 411px;
+    left: 773px;
+}
+
+.num7 {
+    top: 437px;
+    left: 1042px;
+}
+
+.num8 {
+    top: 431px;
+    left: 1105px;
+}
+
+.num9 {
+    top: 381px;
+    left: 867px;
+}
+
+.num10 {
+    top: 409px;
+    left: 982px;
+}
+
+.num11 {
+    top: 241px;
+    left: 1023px;
+}
+
+.num12 {
+    top: 143px;
+    left: 768px;
+}
+
+.num13 {
+    top: 232px;
+    left: 1060px;
+}
+
+.num14 {
+    top: 134px;
+    left: 807px;
+}
+
+.num15 {
+    top: 367px;
+    left: 977px;
+}
+
+.num16 {
+    top: 392px;
+    left: 1116px;
+}
+
+.num17 {
+    top: 339px;
+    left: 882px;
+}
+
+/* начертания */
+
+.weights {
+    height: 993px;
+}
+
+.weights h2 {
+    margin-top: 66px;
+    margin-left: 188px;
+}
+
+.weights .note {
+    margin-top: -65px;
+    margin-left: 807px;
+}
+
+.kings {
+    align-self: center;
+    margin-top: 251px;
+    font-size: 33px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.cap {
+    font-size: 86px;
+}
+
+.kings .medium {
+    font-weight: 500;
+}
+
+.kings .bold {
+    font-weight: 700;
+}
+
+.kings .extrabold {
+    font-weight: 800;
+}
+
+.kings .black {
+    font-weight: 900;
+}
+
+.dragon {
+    top: 93px;
+    left: 249px;
+    width: 783px;
+}
+
+/* детали */
+
+.details {
+    height: 1185px;
+}
+
+.details h2, .details .note {
+    margin-left: 417px;
+    line-height: 60px;
+}
+
+.details h2 {
+    margin-top: 44px;
+}
+
+.detail {
+    font-weight: 500;
+}
+
+.detail1 {
+    margin-top: 96px;
+    margin-left: 471px;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.detail2 {
+    margin-top: 175px;
+    margin-left: 381px;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.detail3 {
+    margin-top: 207px;
+    margin-left: 318px;
+    font-size: 50px;
+    line-height: 68px;
+}
+
+.letters {
+    top: 23px;
+}
+
+.letter1 {
+    top: 395px;
+    left: 707px;
+}
+
+.letter2 {
+    top: 628px;
+    left: 418px;
+}
+
+.letter3 {
+    top: 904px;
+    left: 828px;
+}
+
+/* подвал */
+
+.footer {
+    height: 645px;
+}
+
+.tale {
+    margin-top: 61px;
+    margin-left: 129px;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.names {
+    margin-top: 303px;
+    margin-left: 716px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.swords {
+    top: 1px;
+    left: 204px;
+    width: 874px;
+}
